@@ -1,0 +1,21 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Mailer Application Backend",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Meiy",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "nodemailer": "^6.6.1",
+        "nodemailer-express-handlebars": "^4.0.0",
+        "nodemailer-smtp-transport": "^2.7.4",
+        "nodemon": "^2.0.7",
+        "pdf-lib": "^1.16.0"
+    }
+}
